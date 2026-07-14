@@ -5,10 +5,10 @@ public class Prac1{
 
         //Data types
         int age=20;
-        double salary=10000000.25;
+        double salary=100000.25;
         char grade='A';
         boolean isStudent=true;
-        string name="Soham";
+        String name="Soham";
 
         System.out.println("Name: "+name);
         System.out.println("Salary: "+salary);
@@ -21,13 +21,19 @@ public class Prac1{
         //implicit Casting
         int a=45;
         float b=a;
-        System.out.println(b);
+        System.out.println("implicit casting "+b);
 
 
         //Explicit Casting
         float marks=92.55f;
         int Tmarks=(int)marks;
-        System.out.println(Tmarks);
+        System.out.println("Explicit casting "+Tmarks);
+
+        //Addition of Two Numbers:
+        int number1=10;
+        int number2=20;
+        int add=number1+number2;
+        System.out.println("Addition of " +number1+ " And "+number2+ " is: "+add);
 
     
 
